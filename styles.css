@@ -1,0 +1,99 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.back {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000000d8;
+}
+
+header {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.working-area {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    min-height: 100vh;
+    max-width: 1920px;
+    background-color: black;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list-count {
+    font-size: .8rem;
+    color: orangered;
+}
+
+.nav-left a, .nav-right a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero-left {
+    width: 50%;
+    height: 120px;
+    overflow: hidden;
+    background: red;
+    position: relative;
+}
+
+.hero-left h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.hero-right {
+    width: 25%;
+    background-color: blue;
+}
